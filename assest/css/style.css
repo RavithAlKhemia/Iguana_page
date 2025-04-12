@@ -48,8 +48,8 @@ header {
     padding-bottom: 20px;
 }
 
-.icon {
-    width: 70px;
+.icon p {
+    width: 50px;
     display: flex;
     justify-content: center;
     /*no sirve*/
