@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Arrows:wght@400..700&family=National+Park:wght@200..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+  }
+
+body {
+    font-family: Raleway;
+    color: white;
+    background-color: black;
+}
+
+header {
+    text-align: center;
+    
+}
+
+.img_portada {
+    text-align: center;
+    padding-bottom: 20px;
+    width: 100%;
+
+}
+
+.descripcion {
+    padding: 50px;
+    display: flex;
+}
+
+.descripcion img {
+    width: 600px;
+}
+
+.descripcion p {
+    padding-top: 120px;
+}
+
+.caracteristicas {
+    text-align: center;
+    background-color: #1E1A13 ;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.icon {
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    /*no sirve*/
+}
