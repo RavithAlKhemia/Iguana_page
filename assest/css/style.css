@@ -19,14 +19,12 @@ body {
 header {
     text-align: center;
     font-size: 50px;
-    
 }
 
 .img_portada {
     text-align: center;
     padding-bottom: 20px;
     width: 100%;
-
 }
 
 .descripcion {
@@ -35,15 +33,18 @@ header {
 }
 
 .descripcion img {
-    width: 600px;
+    width: 50%;
+    margin: 30px;
 }
 
 .descripcion p {
-    padding-top: 120px;
+    margin: 30px;
+    font-size: 16px;
+    align-content: center;
 }
 
 .caracteristicas {
-    font-size: 35px;
+    font-size: 40px;
     text-align: center;
     background-color: #1E1A13 ;
     padding-top: 20px;
@@ -65,7 +66,41 @@ header {
 }
 
 .i_text {
-    font-size: 20px;
+    font-size: 24px;
     margin-left: 100px;
     margin-right: 100px;
+}
+
+.imagenes {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.imagen {
+    width: 30%;
+    margin: 1%;
+}
+
+.footer {
+    text-align: center;
+    background-color: #1E1A13 ;
+    padding: 10px;
+}
+
+.visita {
+    font-size: 20px;
+    margin: 10px;
+}
+
+.volver {
+    font-size: 15px;
+    color: white;
+    text-align: right;
+}
+
+#page {
+    color: white;
 }
