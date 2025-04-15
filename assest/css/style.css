@@ -19,6 +19,7 @@ body {
 header {
     text-align: center;
     font-size: 50px;
+    font-weight: medium;
 }
 
 .img_portada {
@@ -33,18 +34,20 @@ header {
 }
 
 .descripcion img {
-    width: 50%;
-    margin: 30px;
+    width: 40%;
+    margin: 40px;
 }
 
 .descripcion p {
-    margin: 30px;
+    margin: 40px;
     font-size: 16px;
+    font-weight: lighter;
     align-content: center;
 }
 
 .caracteristicas {
     font-size: 40px;
+    font-weight: medium;
     text-align: center;
     background-color: #1E1A13 ;
     padding-top: 20px;
@@ -59,14 +62,15 @@ header {
     padding-bottom: 20px;
 }
 
-.icon {
+/*.icon {
     width: 200px;
     margin-left: 200px;
     margin-right: 200px;
-}
+}*/
 
 .i_text {
     font-size: 24px;
+    font-weight: lighter;
     margin-left: 100px;
     margin-right: 100px;
 }
